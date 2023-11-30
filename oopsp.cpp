@@ -48,7 +48,7 @@ class customer{
 		srand(time(0));
 		rail = (rand() % 135) + 1;
 		cout << "Available seats are: " << rail << endl;
-		s1=rail;
+		//s1=rail;
 		return rail;
 	};
 
@@ -65,7 +65,7 @@ class customer{
 		srand(time(0));
 		flight = (rand() % 30) + 1;
 		cout << "Available seats are: " << flight << endl;
-		s1=flight;
+		//s1=flight;
 		return flight;
 	};
     
